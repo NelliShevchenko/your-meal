@@ -1,0 +1,113 @@
+.product {
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    border-radius: 12px;
+    min-height: 243px;
+}
+
+.producr_image {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.product_price {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    margin-bottom: 4px;
+}
+
+.product_title {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    flex-grow: 1;
+    margin-bottom: 4px;
+}
+
+.product_detail {
+    outline: none;
+}
+
+.product_weight {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 130%;
+    color: #B1B1B1;
+    margin-bottom: 7px;
+}
+
+.product_add {
+    background: #F2F2F3;
+    border-radius: 8px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    /*hover*/
+    padding: 9px;
+
+}
+
+@media (main-width: 1024px) {
+    .product {
+        padding: 4px;
+        display: flex;
+        flex-direction: column;
+        background: #FFFFFF;
+        border-radius: 12px;
+        min-height: 243px;
+    }
+
+    .producr_image {
+        width: 100%;
+        height: 120px;
+        object-fit: cover;
+        border-radius: 8px;
+        margin-bottom: 10px;
+    }
+
+    .product_price {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 100%;
+        margin-bottom: 4px;
+    }
+
+    .product_title {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 130%;
+        flex-grow: 1;
+        margin-bottom: 4px;
+    }
+
+    .product_detail {
+        outline: none;
+    }
+
+    .product_weight {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 130%;
+        color: #B1B1B1;
+        margin-bottom: 7px;
+    }
+
+    .product_add {
+        background: #F2F2F3;
+        border-radius: 8px;
+        width: 100%;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 100%;
+        /*hover*/
+        padding: 9px;
+
+    }
+}
