@@ -20,3 +20,23 @@
 .count_pius {
     width: 8px;
 }
+
+@media (min-width: 1024px) {
+    .count {
+        width: 84px;
+        height: 40px;
+        border-radius: 12px;
+        padding: 9px 12px;
+        font-size: 16px;
+        line-height: 22px;
+
+    }
+
+    .count_minus {
+        width: 10px;
+    }
+
+    .count_pius {
+        width: 10px;
+    }
+}
