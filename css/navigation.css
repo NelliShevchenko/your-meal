@@ -51,39 +51,39 @@
 }
 
 .navigation_button_burger {
-    background-image: url(./image/burger.png);
+    background-image: url(/image/burger.png);
 }
 
 .navigation_button_snack {
-    background-image: url('.image/snack.png');
+    background-image: url(/image/snack.png);
 }
 
 .navigation_button_hotdog {
-    background-image: url('.image/hotdog.png');
+    background-image: url(/image/hotdog.png);
 }
 
 .navigation_button_kombo {
-    background-image: url('.image/combo.png');
+    background-image: url(/image/combo.png);
 }
 
 .navigation_button_shawarma {
-    background-image: url('.image/shawerma.png');
+    background-image: url(/image/shawerma.png);
 }
 
 .navigation_button_pizza {
-    background-image: url('.image/pizza.png');
+    background-image: url(/image/pizza.png);
 }
 
 .navigation_button_wok {
-    background-image: url('.image/wok.png');
+    background-image: url(/image/wok.png);
 }
 
 .navigation_button_dessert {
-    background-image: url('.image/desert.png');
+    background-image: url(/image/desert.png);
 }
 
 .navigation_button_sause {
-    background-image: url(..image/souse.png);
+    background-image: url(/image/souse.png);
 }
 
 
