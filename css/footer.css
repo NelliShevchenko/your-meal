@@ -115,3 +115,18 @@
     }
 
 }
+
+@media(min-width: 1360px) {
+    .footer_contact {
+        grid-template-columns: 1fr 1fr;
+        gap: 35px 30px;
+    }
+
+    .footer_address {
+        justify-content: flex-start;
+    }
+
+    .footer_contact {
+        flex-grow: 1;
+    }
+}
