@@ -1,9 +1,11 @@
 .header {
-    background: #FFAB08;
+    /* background: #FFAB08; */
+    background: unset;
     background-size: 611px;
     background-position: bottom;
     background-repeat: no-repeat;
     padding: 24px 0 30px;
+    position: relative;
 }
 
 .container-header_container img {
@@ -17,12 +19,32 @@
 }
 
 .header-title_container {
-    padding-bottom: 246px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
     color: #FFFFFF;
+}
+
+.header-bg {
+    position: absolute;
+    background: #FFAB08;
+    z-index: 0;
+    width: 200%;
+    height: 120%;
+    top: -21%;
+    left: -50%;
+    border-radius: 100%;
+}
+
+.container-header_container {
+    z-index: 1;
+    position: relative;
+}
+
+img.header_burger {
+    width: 100%;
+    max-width: 300px;
 }
 
 .header_title_text {
