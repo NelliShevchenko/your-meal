@@ -1,0 +1,7 @@
+.modal-delivery {
+    background-color: #FFFFFF;
+    width: 100%;
+    min-height: 100%;
+    padding: 32px 10px;
+    display: flex;
+}
