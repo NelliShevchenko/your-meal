@@ -402,12 +402,16 @@
         </div>
       </div>
     </footer>
-    <div class="modal modal_product modal_open">
+    <div class="modal modal_product">
       <div class="modal_main modal-product">
         <div class="modal-product_container">
           <h2 class="modal-product_title">Мясная бомба</h2>
           <div class="modal-product_content">
-            <img src="" alt="" class="modal-product_image" />
+            <img
+              src="image/meat_bomb.jpg"
+              alt="Мясная бомба"
+              class="modal-product_image"
+            />
             <p class="modal-product_description">
               Супер мясное наслаждение! Большая рубленая котлета из свежего
               говяжего мяса покорит вас своей сочностью, а хрустящие листья
@@ -425,7 +429,7 @@
               <p class="ingredients_calories">520г, ккал 430</p>
               <div class="modal-product_footer">
                 <div class="modal-product_add">
-                  <div class="modal-product_btn">Добавить</div>
+                  <button class="modal-product_btn">Добавить</button>
                   <div class="modal-product_count count">
                     <button class="count_minus">-</button>
                     <p class="count_amount">1</p>
@@ -466,6 +470,42 @@
         </button>
       </div>
     </div>
-    <div class="modal"></div>
+    <div class="modal modal-delivery modal-open">
+      <div class="modal_main modal-delivery">
+        <div class="modal-delivery_container">
+          <h2 class="modal-delivery_title">Доставка</h2>
+          <form class="modal-delivery_forma">
+            <fieldset class="modal-delivery_fieldset">
+              <imput class="modal-delivery_input" type="text" name="name" placeholder="Ваше имя">
+                 <imput class="modal-delivery_input" type="tel" name="phone" placeholder="Телефон">
+            </fieldset>
+          </form>
+        </div>
+        <button class="modal_close">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect
+              x="5.07422"
+              y="5.28247"
+              width="1"
+              height="20"
+              transform="rotate(-45 5.07422 5.28247)"
+            />
+            <rect
+              x="5.78125"
+              y="19.4246"
+              width="1"
+              height="20"
+              transform="rotate(-135 5.78125 19.4246)"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
   </body>
 </html>
