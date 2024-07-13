@@ -32,6 +32,20 @@
 
 .product_detail {
     outline: none;
+    position: relative;
+}
+
+.product_detail:hover {
+    color: #F86310;
+}
+
+.product_detail::after {
+    content: '';
+    pointer-events: none;
+    position: absolute;
+    inset: 0;
+    outline: 1px solid transparent;
+    border-radius: 12px;
 }
 
 .product_weight {
